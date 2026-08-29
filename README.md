@@ -51,7 +51,7 @@ useSSL=false
 allowPublicKeyRetrieval=true
 ```
 
-Crie o banco executando o script SQL disponível no repositório.
+Crie o banco executando `sql/create_database.sql` (disponível no repositório).
 
 ## ▶️ Como Executar
 
@@ -59,7 +59,7 @@ Crie o banco executando o script SQL disponível no repositório.
 # Clone o repositório
 git clone https://github.com/EndriwEngSoft/demo-dao-jdbc.git
 
-# Configure o db.properties com suas credenciais MySQL
+# Copie db.properties.example para db.properties e preencha com suas credenciais MySQL
 
 # Compile e execute pela IDE (Eclipse/IntelliJ)
 # ou via Maven:
@@ -78,4 +78,4 @@ mvn compile exec:java -Dexec.mainClass="application.Program"
 
 **Endriw Colvara Bento**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/endriw-bento)
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-000?style=flat&logo=vercel&logoColor=white)](https://portfolio-endriw.vercel.app)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-000?style=flat&logo=vercel&logoColor=white)](https://endriwdev.vercel.app/)
